@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 5px;
+}
+.formgroup {
+  margin-bottom: 20px;
+}
+.formgroup label {
+  display: block;
+  margin-bottom: 5px;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 15px;
+}
+.formgroup input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.formgroup input[type="submit"] {
+  background-color: grey;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
